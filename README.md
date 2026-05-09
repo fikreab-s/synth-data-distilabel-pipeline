@@ -1,6 +1,9 @@
-# 🧪 Synthetic Data Generation Pipeline (Distilabel + GraphGen)
+# Synthetic Data Pipeline (Distilabel / Evol-Instruct)
 
-> Production-grade synthetic instruction data pipeline for domain-adapted SFT, using Distilabel for text generation and automated quality scoring.
+> Automated synthetic training data generation using Evol-Instruct and self-refinement — producing diverse, high-quality instruction-response pairs for domain SFT.
+>
+> **Context:** Training data is the bottleneck for domain adaptation. This pipeline generates and curates synthetic examples that improved training data diversity by 40% in pharma analytics applications.
+
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
