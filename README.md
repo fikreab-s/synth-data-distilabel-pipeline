@@ -118,3 +118,9 @@ python scripts/validate_quality.py --data data/filtered.jsonl
 ## License
 
 MIT
+
+## 📸 Visual Tour
+
+![data quality](viz/data_quality.png)
+
+---
