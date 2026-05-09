@@ -65,9 +65,9 @@ $$\text{Performance} \propto N_{\text{eff}}^{\alpha}, \quad N_{\text{eff}} = N \
 
 where $r_{\text{dup}}$ = deduplication rate, $q_{\text{avg}}$ = average quality score.
 
-## 🏥 Merck Commercial Analytics Connection
+## 🏥 Enterprise Pharma Application
 
-At Merck, I generate synthetic promotional scenarios for model training:
+In enterprise pharma, I generate synthetic promotional scenarios for model training:
 
 | Production Need | This Pipeline |
 |---|---|
@@ -76,7 +76,7 @@ At Merck, I generate synthetic promotional scenarios for model training:
 | Diverse budget optimization examples | Parameterized scenario generation |
 | Business logic validation | Automated checks (ROI ranges, CI format) |
 
-**Key insight:** At Merck, I observed that 500 human-validated Q&A pairs outperform 5,000 unfiltered synthetic ones. This pipeline operationalizes that finding with automated quality scoring.
+**Key insight:** In enterprise pharma, I observed that 500 human-validated Q&A pairs outperform 5,000 unfiltered synthetic ones. This pipeline operationalizes that finding with automated quality scoring.
 
 ## 🚀 Quickstart
 
@@ -114,13 +114,6 @@ python scripts/validate_quality.py --data data/filtered.jsonl
 |---|---|---|---|
 | 1000 unfiltered synthetic | 72% | 81% | 69% |
 | 310 quality-filtered (this pipeline) | **86%** | **95%** | **84%** |
-
-## 🔗 Liquid AI Connection
-
-- **Data Research:** Synthetic data is central to Liquid AI's enterprise offering
-- **Quality:** Demonstrates principled data curation that improves downstream SFT
-- **Scale:** Reusable pipeline applicable to any domain vertical
-- **Cost:** 95% reduction vs. human annotation ($0.02 vs $10 per example)
 
 ## License
 
